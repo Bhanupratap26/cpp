@@ -1,0 +1,17 @@
+#include <stdio.h>
+using namespace std;
+
+
+
+int main() {
+    int a, b, pa, pb,p;
+    
+    
+    scanf("%d %d", &a, &b);
+    pa=a+b;
+    pb=a-b;
+    p=abs(pb);
+    printf("%d\n%d", pa,p);
+
+    return 0;
+}
